@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn about ITR Integrated Technologies, its leadership, principles and enterprise technology approach.">
+  <meta name="theme-color" content="#0d1424">
+  <title>About ITR | Integrated Technologies</title>
+
+  <!-- Anti-flash theme initializer — MUST run before CSS -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('itr-theme');
+        var prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+        document.documentElement.setAttribute('data-theme', saved || (prefersLight ? 'light' : 'dark'));
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ============================================================
+       ANNOUNCEMENT BAR
+       ============================================================ -->
+  <div class="announcement">
+    <div class="container d-flex justify-content-between align-items-center">
+      <span><span class="status-dot"></span> Technology that moves business forward</span>
+      <a href="contact.html">Talk to our team <i class="fa-solid fa-arrow-up-right-from-square ms-1"></i></a>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       NAVBAR
+       ============================================================ -->
+  <nav class="navbar navbar-expand-lg navbar-dark site-nav sticky-top">
+    <div class="container">
+      <a class="navbar-brand brand-lockup" href="index.html" aria-label="ITR Integrated Technologies — Home">
+        <img src="assets/images/itr-logo-white.png" alt="ITR Integrated Technologies Ltd." class="brand-logo" width="220" height="44">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="solutions.html">Solutions</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About ITR</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-outline-light btn-nav" href="contact.html">Start a conversation <i class="fa-solid fa-arrow-right ms-2"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Theme toggle -->
+      <button class="theme-toggle" id="themeToggle" type="button"
+              aria-label="Toggle light and dark mode" title="Toggle theme">
+        <i class="fa-solid fa-moon theme-icon-dark" aria-hidden="true"></i>
+        <i class="fa-solid fa-sun theme-icon-light" aria-hidden="true"></i>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ============================================================
+         INNER HERO
+         ============================================================ -->
+    <section class="inner-hero">
+      <div class="hero-grid"></div>
+      <div class="orb orb-one"></div>
+      <div class="orb orb-two"></div>
+      <div class="container position-relative">
+        <div class="eyebrow"><span></span> ABOUT ITR</div>
+        <h1>Deep expertise.<br><em>A connected view.</em></h1>
+        <p>We bring technology capabilities together to help organisations address complexity, modernise their operations and create room to grow.</p>
+        <div class="breadcrumb-line">
+          <a href="index.html">Home</a>
+          <i class="fa-solid fa-chevron-right"></i>
+          <span>About ITR</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         OUR PURPOSE
+         ============================================================ -->
+    <section class="section-padding intro-section">
+      <div class="container">
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-5">
+            <div class="section-ghost" data-ghost="PURPOSE">
+              <div class="eyebrow eyebrow-light"><span></span> OUR PURPOSE</div>
+              <h2 class="section-title">A partner for the work <em>that matters.</em></h2>
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-1">
+            <p class="section-lead">ITR Integrated Technologies Ltd is a technology solutions provider and systems integrator. Its portfolio spans IT consulting and assessment, digital transformation, IT security, cloud migration, mobility, infrastructure, project management, core banking selection, process automation, artificial intelligence, procurement and talent services.</p>
+            <p class="body-muted">We believe effective technology is not about adding complexity. It is about making systems more useful, processes more dependable and teams better equipped to deliver.</p>
+          </div>
+        </div>
+
+        <div class="about-principles row g-3 mt-5">
+          <div class="col-md-4">
+            <div class="principle-card">
+              <div class="principle-icon"><i class="fa-solid fa-compass"></i></div>
+              <h3>Business-led</h3>
+              <p>Start with the outcome, not a predetermined tool or platform.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="principle-card">
+              <div class="principle-icon"><i class="fa-solid fa-link"></i></div>
+              <h3>Integrated thinking</h3>
+              <p>Consider how people, process, information and systems work together.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="principle-card">
+              <div class="principle-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <h3>Resilient by design</h3>
+              <p>Keep reliability, security and maintainability in the conversation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         AT A GLANCE / STATS
+         ============================================================ -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-6 col-lg-3">
+            <div class="stat-card">
+              <span class="stat-value">27<span>+</span></span>
+              <span class="stat-label">Years of senior leadership experience</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="stat-card">
+              <span class="stat-value">6<span>+</span></span>
+              <span class="stat-label">Core capability areas</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="stat-card">
+              <span class="stat-value">8<span>+</span></span>
+              <span class="stat-label">Sectors we support</span>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="stat-card">
+              <span class="stat-value">100<span>%</span></span>
+              <span class="stat-label">Business-led engagement model</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHAT WE BELIEVE / VALUES IN DEPTH
+         ============================================================ -->
+    <section class="section-padding values-section">
+      <div class="container">
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-5">
+            <div class="section-ghost" data-ghost="VALUES">
+              <div class="eyebrow eyebrow-light"><span></span> WHAT WE BELIEVE</div>
+              <h2 class="section-title">Values that shape <em>how we work.</em></h2>
+            </div>
+            <p class="section-lead mt-3">These principles are not slogans. They guide how we scope engagements, how we deliver and how we build trust with the organisations we support.</p>
+          </div>
+          <div class="col-lg-6 offset-lg-1">
+            <div class="value-principle">
+              <span class="value-principle-number">01</span>
+              <div>
+                <h3>Clarity before tools</h3>
+                <p>We spend time understanding the problem, the people and the constraints before recommending a platform, a product or a project.</p>
+              </div>
+            </div>
+            <div class="value-principle">
+              <span class="value-principle-number">02</span>
+              <div>
+                <h3>Integration, not isolation</h3>
+                <p>We design with the wider ecosystem in mind — people, process, data and systems — so improvements hold up once the project ends.</p>
+              </div>
+            </div>
+            <div class="value-principle">
+              <span class="value-principle-number">03</span>
+              <div>
+                <h3>Delivery discipline</h3>
+                <p>We plan for realistic milestones, clear ownership and measurable outcomes — and we surface risks early, not late.</p>
+              </div>
+            </div>
+            <div class="value-principle">
+              <span class="value-principle-number">04</span>
+              <div>
+                <h3>Long-term partnership</h3>
+                <p>Our goal is not to stay in the picture forever, but to help teams build capability, so momentum continues after we hand over.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         LEADERSHIP
+         ============================================================ -->
+    <section class="leadership-section section-padding">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+
+          <div class="col-lg-4">
+            <div class="leader-monogram">
+              <span>OA</span>
+              <div class="leader-orbit"></div>
+              <small>LEADERSHIP</small>
+            </div>
+          </div>
+
+          <div class="col-lg-7 offset-lg-1">
+            <div class="eyebrow"><span></span> LEADERSHIP</div>
+            <h2 class="section-title">Olusina Ayegbusi</h2>
+            <p class="leader-role">Managing Director &amp; Lead Consultant</p>
+            <p class="leader-bio">The company profile describes Olusina Ayegbusi as a senior IT and business executive with over 27 years of experience in the banking and financial sector. His stated areas of expertise include business and digital transformation, project management, strategy, business process management, service design and delivery, technical talent management, solutions architecture, core banking implementation, disaster recovery planning and procurement.</p>
+            <p class="leader-bio">The profile also notes his previous role as General Manager and Group Chief Information Officer at Guaranty Trust Holding Company until November 2024, alongside experience across banking, asset management, payments and pensions in African and UK markets.</p>
+            <div class="leader-credentials">
+              <span><i class="fa-solid fa-award"></i> Fellow, ICAN (as stated in company profile)</span>
+              <span><i class="fa-solid fa-award"></i> Honorary Senior Member, CIBN (as stated in company profile)</span>
+            </div>
+            <p class="small-note mt-3">Leadership credentials and career details are presented as provided in the company profile and should be reviewed by ITR before publication.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         HOW WE WORK (DELIVERY APPROACH)
+         ============================================================ -->
+    <section class="section-padding approach-section">
+      <div class="container">
+        <div class="row g-5">
+
+          <div class="col-lg-5">
+            <div class="section-ghost" data-ghost="PROCESS">
+              <div class="eyebrow eyebrow-light"><span></span> HOW WE WORK</div>
+              <h2 class="section-title">Built on clarity.<br><em>Driven by outcomes.</em></h2>
+            </div>
+            <p class="section-lead mt-3">A thoughtful delivery approach helps keep complex initiatives aligned with the people and business they are meant to serve.</p>
+          </div>
+
+          <div class="col-lg-6 offset-lg-1">
+
+            <div class="approach-step">
+              <span>01</span>
+              <div>
+                <h3>Discover &amp; align</h3>
+                <p>Understand your current environment, risks and objectives before shaping a solution.</p>
+              </div>
+              <i class="fa-solid fa-magnifying-glass-chart"></i>
+            </div>
+
+            <div class="approach-step">
+              <span>02</span>
+              <div>
+                <h3>Design &amp; integrate</h3>
+                <p>Map the right architecture, delivery plan and implementation path around your needs.</p>
+              </div>
+              <i class="fa-solid fa-diagram-project"></i>
+            </div>
+
+            <div class="approach-step">
+              <span>03</span>
+              <div>
+                <h3>Deliver &amp; evolve</h3>
+                <p>Support implementation, adoption and continuous improvement as your business grows.</p>
+              </div>
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHY CHOOSE ITR
+         ============================================================ -->
+    <section class="section-padding why-section">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+
+          <div class="col-lg-5">
+            <div class="section-ghost" data-ghost="WHY ITR">
+              <div class="eyebrow eyebrow-light"><span></span> WHY CHOOSE ITR</div>
+              <h2 class="section-title">A partner that understands <em>both sides.</em></h2>
+            </div>
+            <p class="section-lead mt-3">We bring together deep financial-services insight, enterprise delivery discipline and modern platform expertise — so technology decisions hold up in the real world.</p>
+            <a class="btn btn-primary btn-lg btn-glow mt-3" href="solutions.html">Explore our capabilities <i class="fa-solid fa-arrow-right ms-2"></i></a>
+          </div>
+
+          <div class="col-lg-6 offset-lg-1">
+            <div class="why-card">
+              <i class="fa-solid fa-user-tie"></i>
+              <div>
+                <h3>Senior-led engagement</h3>
+                <p>Your initiative benefits from direct access to senior practitioners — not just a delivery team.</p>
+              </div>
+            </div>
+            <div class="why-card">
+              <i class="fa-solid fa-scale-balanced"></i>
+              <div>
+                <h3>Business and technology fluency</h3>
+                <p>We translate between business priorities and technology realities in both directions.</p>
+              </div>
+            </div>
+            <div class="why-card">
+              <i class="fa-solid fa-shield-halved"></i>
+              <div>
+                <h3>Regulated-sector discipline</h3>
+                <p>Experience in banking, payments and financial crime environments informs how we deliver.</p>
+              </div>
+            </div>
+            <div class="why-card">
+              <i class="fa-solid fa-handshake-angle"></i>
+              <div>
+                <h3>Long-term partnership mindset</h3>
+                <p>We focus on adoption, capability transfer and lasting outcomes — not one-off delivery.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTORS & CLIENTS
+         ============================================================ -->
+    <section class="section-padding sectors-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <div class="section-ghost" data-ghost="SECTORS" style="display:inline-block">
+            <div class="eyebrow eyebrow-light justify-content-center"><span></span> SECTORS WE SUPPORT</div>
+            <h2 class="section-title">Experience across <em>regulated and high-growth environments.</em></h2>
+          </div>
+          <p class="section-lead mx-auto mt-3" style="max-width:660px">Our work spans financial services, enterprise and public-sector environments — with particular depth in regulated settings where integration, governance and operational clarity matter.</p>
+        </div>
+        <div class="row g-3">
+          <div class="col-md-6 col-lg-3">
+            <div class="sector-card">
+              <div class="sector-icon"><i class="fa-solid fa-building-columns"></i></div>
+              <h3>Financial Services</h3>
+              <p>Banking, payments, asset management, pensions and financial crime mitigation.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="sector-card">
+              <div class="sector-icon"><i class="fa-solid fa-tower-cell"></i></div>
+              <h3>Telecommunications</h3>
+              <p>Customer experience, billing integration and network operations support.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="sector-card">
+              <div class="sector-icon"><i class="fa-solid fa-oil-well"></i></div>
+              <h3>Oil, Gas &amp; Energy</h3>
+              <p>Field operations, supply chain integration and asset visibility.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="sector-card">
+              <div class="sector-icon"><i class="fa-solid fa-landmark"></i></div>
+              <h3>Public Sector</h3>
+              <p>Citizen services, digital identity, workflow automation and data integration.</p>
+            </div>
+          </div>
+        </div>
+        <p class="sector-note"><i class="fa-solid fa-circle-info me-2"></i>Client names and project details are shared only where approved. Contact us to discuss relevant experience for your organisation.</p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         HOW WE ENGAGE
+         ============================================================ -->
+    <section class="section-padding engage-section">
+      <div class="container">
+        <div class="row g-5 align-items-start">
+
+          <div class="col-lg-5">
+            <div class="section-ghost" data-ghost="ENGAGE">
+              <div class="eyebrow eyebrow-light"><span></span> HOW WE ENGAGE</div>
+              <h2 class="section-title">Flexible models, <em>senior attention.</em></h2>
+            </div>
+            <p class="section-lead mt-3">Whether you need a focused advisory session or a full delivery team, we shape the engagement around the outcome you are aiming for.</p>
+          </div>
+
+          <div class="col-lg-6 offset-lg-1">
+            <div class="engage-card">
+              <div class="engage-card-icon"><i class="fa-solid fa-comments"></i></div>
+              <div>
+                <h3>Advisory &amp; assessment</h3>
+                <p>Short, focused engagements to clarify priorities, review architecture or validate a direction — often the first step before a larger commitment.</p>
+              </div>
+            </div>
+            <div class="engage-card">
+              <div class="engage-card-icon"><i class="fa-solid fa-diagram-project"></i></div>
+              <div>
+                <h3>Project delivery</h3>
+                <p>End-to-end delivery of a defined initiative — from requirements and design to implementation, testing and hand-over.</p>
+              </div>
+            </div>
+            <div class="engage-card">
+              <div class="engage-card-icon"><i class="fa-solid fa-people-group"></i></div>
+              <div>
+                <h3>Team augmentation &amp; managed support</h3>
+                <p>Embedded specialists or ongoing managed support to reinforce your team, fill specific gaps or sustain operations.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CTA
+         ============================================================ -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-inner">
+          <div>
+            <div class="eyebrow"><span></span> LET'S WORK TOGETHER</div>
+            <h2>Let's make your next move count.</h2>
+            <p>Share your priorities and let's discuss how technology can support them.</p>
+          </div>
+          <a class="btn btn-primary btn-lg btn-glow" href="contact.html">Contact ITR <i class="fa-solid fa-arrow-right ms-2"></i></a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-5">
+
+        <div class="col-lg-4">
+          <a class="navbar-brand brand-lockup" href="index.html" aria-label="ITR Integrated Technologies — Home">
+            <img src="assets/images/itr-logo-white.png" alt="ITR Integrated Technologies Ltd." class="brand-logo" width="240" height="52">
+          </a>
+          <p class="footer-intro">Practical technology. Connected thinking. Better business outcomes.</p>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h4>Explore</h4>
+          <a href="about.html">About ITR</a>
+          <a href="solutions.html">Solutions</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <h4>Capabilities</h4>
+          <a href="solutions.html#transformation">Digital transformation</a>
+          <a href="solutions.html#cloud">Cloud &amp; infrastructure</a>
+          <a href="solutions.html#security">Security solutions</a>
+          <a href="solutions.html#software">Software development</a>
+        </div>
+
+        <div class="col-lg-3">
+          <h4>Get in touch</h4>
+          <p><i class="fa-solid fa-location-dot"></i> 9 Queens Court Estate, off 1 Layi Ajayi-Bembe Street, Parkview Estate, Ikoyi, Lagos, Nigeria</p>
+          <a href="tel:+2348023305565"><i class="fa-solid fa-phone"></i> +234 802 330 5565</a>
+          <a href="mailto:itrintegrated@gmail.com"><i class="fa-regular fa-envelope"></i> itrintegrated@gmail.com</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> ITR Integrated Technologies Ltd. All rights reserved.</span>
+        <span>Technology with purpose.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       CHATBOT WIDGET
+       ============================================================ -->
+  <div class="chatbot" id="chatbot" aria-live="polite">
+
+    <button class="chatbot-launcher" id="chatbotLauncher" type="button" aria-label="Open chat assistant" aria-expanded="false" aria-controls="chatbotPanel">
+      <i class="fa-solid fa-comments chatbot-icon-open"></i>
+      <i class="fa-solid fa-xmark chatbot-icon-close"></i>
+      <span class="chatbot-badge" id="chatbotBadge">1</span>
+    </button>
+
+    <div class="chatbot-panel" id="chatbotPanel" role="dialog" aria-label="ITR chat assistant" aria-hidden="true">
+
+      <div class="chatbot-header">
+        <div class="chatbot-header-info">
+          <div class="chatbot-avatar">
+            <img src="assets/images/itr-logo-white.png" alt="" aria-hidden="true">
+          </div>
+          <div>
+            <strong>ITR Assistant</strong>
+            <span><i class="chatbot-dot"></i> Typically replies instantly</span>
+          </div>
+        </div>
+        <button class="chatbot-close" id="chatbotClose" type="button" aria-label="Close chat">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="chatbot-messages" id="chatbotMessages" role="log" aria-live="polite">
+        <div class="chat-message bot">
+          <div class="chat-bubble">
+            Hi there 👋 I'm the ITR assistant. Ask me about our capabilities, location or how to get in touch — or pick a question below.
+          </div>
+        </div>
+
+        <div class="chatbot-suggestions" id="chatbotSuggestions">
+          <button type="button" data-question="What services do you offer?">What services do you offer?</button>
+          <button type="button" data-question="Where are you located?">Where are you located?</button>
+          <button type="button" data-question="How do I contact you?">How do I contact you?</button>
+          <button type="button" data-question="Do you work with banks?">Do you work with banks?</button>
+          <button type="button" data-question="How quickly will you respond?">How quickly will you respond?</button>
+        </div>
+      </div>
+
+      <form class="chatbot-input" id="chatbotForm" autocomplete="off">
+        <input type="text" id="chatbotInput" placeholder="Type a message…" aria-label="Type your message" maxlength="400">
+        <button type="submit" aria-label="Send message">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </form>
+
+      <div class="chatbot-footer">
+        <span>Powered by ITR · <a href="contact.html">Contact a human</a></span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Scripts (loaded ONCE, inside body) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/chatbot.js"></script>
+</body>
+</html>
